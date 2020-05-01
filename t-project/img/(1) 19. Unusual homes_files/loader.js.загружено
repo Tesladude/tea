@@ -1,0 +1,1 @@
+!function(){if(window.angularWidgetsLoaded)throw new Error("Angular widgets already loaded");window.angularWidgetsLoaded=!0;var e=document.createElement("script");e.src="https://angular-widgets.skyeng.ru/widgets.bundle.js?2291",e.setAttribute("defer",""),document.body.appendChild(e)}();

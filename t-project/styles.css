@@ -1,0 +1,119 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 0.9);
+    background-color: black;
+    
+}
+/* header ---- */   
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 69px;
+    justify-content: space-between;
+    position: fixed; 
+    z-index:1;
+    background-color: black;
+    width: 100%;
+    top: 0em;
+    border-bottom: 1px solid seashell;
+    
+}
+
+header img{
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header nav  {
+    display: inline-flex;
+    align-items: center;     
+}
+
+header nav a {
+    color: seashell;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+/* Main content */
+
+.main {
+    position: relative;
+    top: 62px;
+    overflow: hidden;
+    text-align: center;
+    
+  
+}
+.main .missionBack {
+   min-width: 1200px;
+   min-height: auto;
+   position: relative;
+}
+ .content{
+    position: absolute;
+    display: block;
+    top: 295px;
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+}
+
+#store{
+    width:1000px;
+    align-content: center;
+    margin: 80px auto; 
+    
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto; 
+    padding: 0 10px;
+}
+
+.item span{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    
+            
+}
+.item img {
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+div #locations{
+    background-image: url(/img/img-locations-background.jpg);
+    width: 1200px;
+    margin: 20px auto;
+    height: 780px;
+    
+}
+
+#locations h2{
+    position: relative;
+    top: 200px;
+}
+
+.location{
+    background-color: black;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    margin: 0 20px;
+}
+
+footer{
+    text-align: left;
+}
